@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.top-intro{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+
+}
+#address p{
+    font-family:montserrat,sans-serif;
+    font-size: 12px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+
+}
+#aboutmj{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  background-image: url(imagens/background.png);
+  padding: 20px;
+  margin: 150px;
+  border-radius: 15px;
+  box-shadow:  -6px -6px 81px #cb20ff,
+  6px 6px 81px #000000;
+}
+p{
+    font-family:montserrat,sans-serif;
+    font-size: 12px;
+    color: aliceblue;
+}
+img{
+    max-width: 100%;
+    width: 100px;
+
+    display: flex;
+}
+body{
+    margin: 0;
+    background: url(imagens/test001.png);
+    background-size: cover, contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.header{
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#list{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+
+}
+ul{
+    color: aliceblue
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    text-decoration: none;
+    color: inherit;
+    color: white;
+}
+/*-------botao central--------------*/
+.learn-more {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  margin-left: 45%;
+  margin-top: 30%;
+ }
+ 
+ .learn-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ .learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #800fdd;
+  border-radius: 1.625rem;
+ }
+ 
+ .learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ .learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ .learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ .learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans';
+ }
+ 
+ .learn-more:hover .circle {
+  width: 100%;
+ }
+ 
+ .learn-more:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ .learn-more:hover .button-text {
+  color: #fff;
+ }
+  /*-------botao topo--------------*/
+
+  #top {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  #top:focus,
+  #top:hover {
+    color: #fff;
+  }
+  
+  #top:focus:after,
+  #top {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+#top:focus,
+#top:hover {
+  color: #fff;
+}
+
+#top:focus:after,
+#top:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+#top:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}#top:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  #top:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+    /*-------card team--------------*/
+    
+    
+    .card {
+      width: 910px;
+      height: 454px;
+      border-radius: 4px;
+      display: flex;
+      gap: 5px;
+      padding: .4em;
+      margin: 50px;
+      margin-left: 200px;
+    }
+    .card #card1{
+      width: auto;
+      width: auto;
+      max-width: 100%;
+      position:inherit;
+      background: url(imagens/WhatsApp\ Image\ 2022-11-22\ at\ 19.26.03.jpeg);
+      background-size: cover, contain;
+      background-repeat: no-repeat;
+      background-attachment:;
+      background-position: center;
+    }
+    .card #card2{
+      width: auto;
+      width: auto;
+      max-width: 100%;
+      position:inherit;
+      background: url(imagens/cindyelle.jpg);
+      background-size: cover, contain;
+      background-repeat: no-repeat;
+      background-attachment:;
+      background-position: center;
+    }
+    .card #card3{
+      width: auto;
+      width: auto;
+      max-width: 100%;
+      position:inherit;
+      background: url(imagens/dani\ dani.jpg);
+      background-size: cover, contain;
+      background-repeat: no-repeat;
+      background-attachment:;
+      background-position: center;
+    }
+    .card #card4{
+      width: auto;
+      width: auto;
+      max-width: 100%;
+      position:inherit;
+      background: url(imagens/dom.jpg);
+      background-size: cover, contain;
+      background-repeat: no-repeat;
+      background-attachment:;
+      background-position: center;
+    }
+    .card #card5{
+      width: auto;
+      width: auto;
+      max-width: 100%;
+      position:inherit;
+      background: url(imagens/328769262_737501201301366_5603006979447379652_n.jpg);
+      background-size: cover, contain;
+      background-repeat: no-repeat;
+      background-attachment:;
+      background-position: center;
+    }
+    .card #card6{
+      width: auto;
+      width: auto;
+      max-width: 100%;
+      position:inherit;
+      background: url(imagens/gabs.jpeg);
+      background-size: cover, contain;
+      background-repeat: no-repeat;
+      background-attachment:;
+      background-position: center;
+    }
+    .card p {
+      height: 100%;
+      flex: 1;
+      overflow: hidden;
+      cursor: pointer;
+      border-radius: 2px;
+      transition: all .5s;
+      background: #212121;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Josefin Sans';
+      font-weight: bold
+    }
+    
+    .card p:hover {
+      flex: 4;
+    }
