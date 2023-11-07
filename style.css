@@ -59,10 +59,11 @@ body{
 
 }
 ul{
-    color: aliceblue
+    color: aliceblue;
     margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 a{
     font-family: 'Josefin Sans';
     font-size: 15px;
@@ -244,6 +245,7 @@ a{
     
     
     .card {
+      position:relative;
       width: 910px;
       height: 454px;
       border-radius: 4px;
@@ -252,6 +254,7 @@ a{
       padding: .4em;
       margin: 50px;
       margin-left: 200px;
+      margin: 50px auto 0 auto;
     }
     .card #card1{
       width: auto;
@@ -261,7 +264,6 @@ a{
       background: url(imagens/WhatsApp\ Image\ 2022-11-22\ at\ 19.26.03.jpeg);
       background-size: cover, contain;
       background-repeat: no-repeat;
-      background-attachment:;
       background-position: center;
     }
     .card #card2{
@@ -272,7 +274,6 @@ a{
       background: url(imagens/cindyelle.jpg);
       background-size: cover, contain;
       background-repeat: no-repeat;
-      background-attachment:;
       background-position: center;
     }
     .card #card3{
@@ -283,7 +284,6 @@ a{
       background: url(imagens/dani\ dani.jpg);
       background-size: cover, contain;
       background-repeat: no-repeat;
-      background-attachment:;
       background-position: center;
     }
     .card #card4{
@@ -294,7 +294,6 @@ a{
       background: url(imagens/dom.jpg);
       background-size: cover, contain;
       background-repeat: no-repeat;
-      background-attachment:;
       background-position: center;
     }
     .card #card5{
@@ -305,7 +304,6 @@ a{
       background: url(imagens/328769262_737501201301366_5603006979447379652_n.jpg);
       background-size: cover, contain;
       background-repeat: no-repeat;
-      background-attachment:;
       background-position: center;
     }
     .card #card6{
@@ -316,7 +314,6 @@ a{
       background: url(imagens/gabs.jpeg);
       background-size: cover, contain;
       background-repeat: no-repeat;
-      background-attachment:;
       background-position: center;
     }
     .card p {
